@@ -1,10 +1,15 @@
+import Menu from "./_components/Menu";
 import styles from "./page.module.scss";
 
 export default function Home() {
   return (
-    <main className={styles.container}>
-      <h1>Space Tourism</h1>
-      <p>Teste teste teste</p>
-    </main>
+    <div className={styles.container}>
+      <Menu />
+
+      <main>
+        <h1>SPACE</h1>
+        <p>Teste teste teste</p>
+      </main>
+    </div>
   );
 }

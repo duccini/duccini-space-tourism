@@ -1,0 +1,80 @@
+@import "@/styles/variables.scss";
+
+.container {
+  height: 136px;
+  // width: 1280px;
+  width: 100%;
+
+  padding: 0 3rem;
+
+  background: transparent;
+
+  padding-top: 40px;
+}
+
+.menuContent {
+  height: 96px;
+
+  // border: 1px solid yellow;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: relative;
+}
+
+.navbarBackground {
+  width: 830px;
+  height: 96px;
+  flex-shrink: 0;
+
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(40.774227142333984px);
+
+  position: absolute;
+  right: -3rem;
+  bottom: 0;
+
+  z-index: 10;
+}
+
+.navmenu {
+  nav {
+    list-style-type: none;
+    display: flex;
+  }
+
+  z-index: 100;
+
+  li {
+    height: 96px;
+    display: flex;
+    align-items: center;
+
+    // border: 1px solid red;
+    margin: 0 1rem;
+
+    a {
+      text-decoration: none;
+
+      color: $white;
+
+      font-family: $barlow;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 2.7px;
+
+      span {
+        font-weight: 700;
+        padding-right: 11px;
+      }
+    }
+  }
+}
+
+.activeClass {
+  border-bottom: 3px solid $white;
+}
