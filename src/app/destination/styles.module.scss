@@ -1,0 +1,66 @@
+@import "@/styles/variables.scss";
+
+.contentWrap {
+  margin: 3rem 3rem 4rem 150px;
+
+  // border: 1px solid white;
+
+  h2 {
+    font-family: $barlow;
+    letter-spacing: 4.725px;
+    color: $white;
+    font-style: normal;
+    line-height: normal;
+    font-size: 2.8rem;
+
+    span {
+      font-weight: 700;
+      opacity: 0.25;
+    }
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+}
+
+.content {
+  display: flex;
+
+  margin-top: 5rem;
+}
+
+.contentInfo {
+  // border: 1px solid red;
+
+  width: 100%;
+  margin-left: 150px;
+
+  h1 {
+    color: $white;
+    font-family: $bellefair;
+    font-size: 8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  p {
+    padding-top: 16px;
+    width: 80%;
+
+    color: $blue-50;
+    font-family: $barlow;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.2rem; /* 177.778% */
+  }
+}
+
+.divider {
+  width: 80%;
+  height: 1px;
+  flex-shrink: 0;
+  border: 2px solid #383b4b;
+
+  margin-top: 32px;
+}

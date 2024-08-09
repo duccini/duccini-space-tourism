@@ -1,12 +1,11 @@
 import Link from "next/link";
 import Menu from "./_components/Menu";
 import styles from "./page.module.scss";
+import Container from "./_components/Container";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Menu />
-
+    <Container>
       <main>
         <div className={styles.homehero}>
           <div className={styles.homeheroContent}>
@@ -26,6 +25,6 @@ export default function Home() {
           </div>
         </div>
       </main>
-    </div>
+    </Container>
   );
 }

@@ -37,12 +37,20 @@ export default function Menu() {
                 <span>02</span> DESTINATION
               </Link>
             </li>
-            <li className={currentRoute === "/crew" ? "activeClass" : ""}>
+            <li
+              className={
+                currentRoute === "/crew" ? `${styles.activeClass}` : ""
+              }
+            >
               <Link href="/crew">
                 <span>03</span> CREW
               </Link>
             </li>
-            <li className={currentRoute === "/technology" ? "activeClass" : ""}>
+            <li
+              className={
+                currentRoute === "/technology" ? `${styles.activeClass}` : ""
+              }
+            >
               <Link href="/technology">
                 <span>04</span> TECHNOLOGY
               </Link>
