@@ -18,7 +18,7 @@ export default function Home() {
             </p>
           </div>
           <div className={styles.homeheroAction}>
-            <Link href="/destinations">
+            <Link href="/destination">
               <div className={styles.oval}>Explore</div>
             </Link>
           </div>
