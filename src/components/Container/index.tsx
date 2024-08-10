@@ -15,6 +15,7 @@ export default function Container({ children, backgroundImage }: Props) {
         height: "100vh",
         background: `#0b0d17 url('${backgroundImage}') no-repeat center`,
         backgroundSize: "cover",
+        overflow: "hidden",
       }}
     >
       <Menu />

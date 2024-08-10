@@ -8,7 +8,6 @@ import { usePathname } from "next/navigation";
 
 export default function Menu() {
   const currentRoute = usePathname();
-  console.log(currentRoute);
 
   return (
     <header className={styles.container}>

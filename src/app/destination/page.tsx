@@ -7,7 +7,6 @@ import AstroCard from "./_components/AstroCard";
 
 import { astros } from "@/data";
 import Content from "@/components/Content";
-console.log();
 
 export default function Destination() {
   const [astro, setAstro] = useState("moon");
@@ -17,7 +16,7 @@ export default function Destination() {
   };
 
   return (
-    <Container backgroundImage="/destination-background.jpg">
+    <Container backgroundImage="/destination-backround.jpg">
       <Content>
         <h2>
           <span>01</span> PICK YOUR DESTINATION

@@ -1,9 +1,11 @@
 @import "@/styles/variables.scss";
 
 .contentWrap {
-  margin: 3rem 3rem 4rem 150px;
+  margin: 3rem 3rem 0 150px;
 
-  // border: 1px solid white;
+  display: flex;
+  flex-flow: column;
+  height: calc(100vh - 3rem - 136px);
 
   h2 {
     font-family: $barlow;
