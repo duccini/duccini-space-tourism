@@ -1,8 +1,8 @@
-import Container from "../_components/Container";
+import Container from "@/components/Container";
 
 export default function Crew() {
   return (
-    <Container>
+    <Container backgroundImage="/crew-background.jpg">
       <h1>Crew</h1>
     </Container>
   );

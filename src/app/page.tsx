@@ -1,11 +1,10 @@
 import Link from "next/link";
-import Menu from "./_components/Menu";
 import styles from "./page.module.scss";
-import Container from "./_components/Container";
+import Container from "@/components/Container";
 
 export default function Home() {
   return (
-    <Container>
+    <Container backgroundImage="/homepage-background.jpg">
       <main>
         <div className={styles.homehero}>
           <div className={styles.homeheroContent}>

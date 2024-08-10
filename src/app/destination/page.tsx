@@ -1,11 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import Container from "../_components/Container";
-import Astro from "./_components/Astro";
+import Container from "@/components/Container";
 
 import styles from "./styles.module.scss";
-import { SelectAstro } from "./_components/SelectAstro";
 import AstroCard from "./_components/AstroCard";
 
 import { astros } from "@/data";
@@ -19,7 +17,7 @@ export default function Destination() {
   };
 
   return (
-    <Container>
+    <Container backgroundImage="/destination-backround.jpg">
       <main>
         <div className={styles.contentWrap}>
           <h2>
