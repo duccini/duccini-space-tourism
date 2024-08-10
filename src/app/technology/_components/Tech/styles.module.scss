@@ -1,0 +1,30 @@
+.techContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border: 1px solid white;
+
+  height: 100%;
+
+  padding-top: 1.6rem;
+}
+
+.techInfo {
+  width: 475px;
+  // height: 100%;
+
+  border: 1px solid red;
+}
+
+.techImage {
+  width: 515px;
+  height: 100%;
+
+  border: 1px solid purple;
+
+  img {
+    display: block;
+    margin-left: auto;
+  }
+}

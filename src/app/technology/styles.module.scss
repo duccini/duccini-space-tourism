@@ -1,0 +1,50 @@
+@import "@/styles/variables.scss";
+
+.techControlAndComponent {
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.selectTech {
+  width: 80px;
+  height: 312px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.activeTech,
+.inactiveTech {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  font-family: $bellefair;
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+
+  cursor: pointer;
+}
+
+.activeTech {
+  background: $white;
+  color: #0b0d17;
+}
+
+.inactiveTech {
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  color: $white;
+}

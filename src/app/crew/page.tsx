@@ -15,7 +15,7 @@ import anousheh from "/public/anousheh.png";
 import styles from "./styles.module.scss";
 
 export default function Crew() {
-  const [astronaut, setAstronaut] = useState("victor");
+  const [astronaut, setAstronaut] = useState("douglas");
   return (
     <Container backgroundImage="/crew-background.jpg">
       <Content>
