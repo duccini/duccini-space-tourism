@@ -1,9 +1,14 @@
 import Container from "@/components/Container";
+import Content from "@/components/Content";
 
 export default function Crew() {
   return (
     <Container backgroundImage="/crew-background.jpg">
-      <h1>Crew</h1>
+      <Content>
+        <h2>
+          <span>02</span> MEET YOUR CREW
+        </h2>
+      </Content>
     </Container>
   );
 }
