@@ -12,6 +12,8 @@ import mark from "/public/mark.png";
 import victor from "/public/victor.png";
 import anousheh from "/public/anousheh.png";
 
+import styles from "./styles.module.scss";
+
 export default function Crew() {
   const [astronaut, setAstronaut] = useState("victor");
   return (
@@ -36,6 +38,43 @@ export default function Crew() {
         {astronaut === "anousheh" && (
           <Astronaut key="anousheh" member={crew.anousheh} image={anousheh} />
         )}
+
+        <div className={styles.selectAstronaut}>
+          <div className={styles.selectAstronautContainer}>
+            <div
+              className={
+                astronaut === "douglas"
+                  ? `${styles.activeAstronaut}`
+                  : `${styles.inactiveAstronaut}`
+              }
+              onClick={() => setAstronaut("douglas")}
+            ></div>
+            <div
+              className={
+                astronaut === "mark"
+                  ? `${styles.activeAstronaut}`
+                  : `${styles.inactiveAstronaut}`
+              }
+              onClick={() => setAstronaut("mark")}
+            ></div>
+            <div
+              className={
+                astronaut === "victor"
+                  ? `${styles.activeAstronaut}`
+                  : `${styles.inactiveAstronaut}`
+              }
+              onClick={() => setAstronaut("victor")}
+            ></div>
+            <div
+              className={
+                astronaut === "anousheh"
+                  ? `${styles.activeAstronaut}`
+                  : `${styles.inactiveAstronaut}`
+              }
+              onClick={() => setAstronaut("anousheh")}
+            ></div>
+          </div>
+        </div>
       </Content>
     </Container>
   );
